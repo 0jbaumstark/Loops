@@ -8,9 +8,11 @@ function positiveIntSum(limit){
     return sum;
 }
 function additionPatternSum(start, diff, limit){
-    let start ; let diff
-    for(let i = start ; i <= limit ; i = i + diff)
+    let sum = start
+    for(let k = start ; k <= limit ; k = k++){
+        sum = sum + diff*k
 return diff
+ }
 }
 
 
@@ -19,10 +21,9 @@ return diff
 // While-loop function
 
 function multiplicationPatternSum(factor, max, start){
-
-
-}
-
+let sum = start
+let j=1 
+while (k <= max)
 
 
 
