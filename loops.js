@@ -14,18 +14,25 @@ function additionPatternSum(start, diff, limit){
 return diff
  }
 }
-
-
-
-
 // While-loop function
 
 function multiplicationPatternSum(factor, max, start){
-let sum = start
-let j=1 
-while (k <= max)
-
+let sum = start;
+let j = 1; 
+    while (j <= max){
+    sum = sum + factor * j;
+    j = factor * j;
+return j
+    }
+}
 
 
 
 //Later copy paste the checking code below here.
+
+console.log("question 1: "+ positiveIntSum(1500));
+console.log("question 2: "+ positiveIntSum(2000000));
+console.log("question 3: "+ additionPatternSum(-80,60,50));
+console.log("question 4: "+ additionPatternSum(4,8,50000));
+console.log("question 5: "+ multiplicationPatternSum());
+console.log("question 6: "+ multiplicationPatternSum());
